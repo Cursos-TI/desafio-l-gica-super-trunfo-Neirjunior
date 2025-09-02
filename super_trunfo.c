@@ -93,9 +93,9 @@ int main() {
     printf("Carta 1 - %s: %f\n", cidade1, pib1);
     printf("Carta 2 - %s: %f\n",cidade2, pib2);
     if (pib1 > pib2){
-        printf("Resulado: Carta 1 %s venceu.\n", cidade1);
+        printf("Resulado: Carta 1 - %s venceu.\n", cidade1);
     }else{
-        printf("Resulado: Carta 2 %s venceu.\n", cidade2);
+        printf("Resulado: Carta 2 - %s venceu.\n", cidade2);
     }
     return 0;
 }
